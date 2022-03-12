@@ -1,0 +1,38 @@
+header {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: lightblue; */
+    height: 100px;
+    border-bottom: 0.3px solid lightgrey;
+}
+
+#menu-cart-container {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+    height: 100px;
+    margin-right: 30px;
+}
+
+#menu-container {
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+#cart-container {
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    border-radius: 50%;
+}
